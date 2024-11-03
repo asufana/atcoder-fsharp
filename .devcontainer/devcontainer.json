@@ -1,0 +1,23 @@
+{
+    "name": "F# AtCorder",
+    "dockerComposeFile": "compose.yml",
+    "service": "app",
+    "workspaceFolder": "/opt",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-dotnettools.csharp",
+                "Ionide.Ionide-fsharp",
+                "alfonsogarciacaro.vscode-template-fsharp-highlight",
+                "georgewfraser.fsharp-language-server",
+                "formulahendry.dotnet-test-explorer"
+            ]
+        },
+        "settings": {
+            "[fsharp]": {
+                "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+            }
+        }
+    }
+}
